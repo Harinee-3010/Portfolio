@@ -1,13 +1,16 @@
+html{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .up{
-  background-color: rgb(9, 9, 0);
+  background-color: rgb(52, 50, 50);
   text-align: center;
   color: aliceblue;
   padding:25px;
   
 }
 
-*{
-  
+*{  
   margin:0px;
 }
 
@@ -16,7 +19,6 @@ h3{
 }
 
 .cake1 {
-  border-radius: 4px;
   text-align: center;
   color:rgb(15, 12, 17);
   background-color: blanchedalmond;
@@ -24,17 +26,27 @@ h3{
 }
 .box{
   border-width:6px;
-  border-color: rgba(55, 1, 1, 0.742);
+  border-color: black;
   display:inline-block;
   margin:30px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   transition: 0.3s ease;
-  background-color: black;
-  color: white;
+  border-radius: 25px;
+
+}
+
+img{
+  border-radius: 50px;
+  box-shadow: 0 8px 16px black;
 }
 
 .mid{
   background-color: burlywood;
   color:black;
   padding:25px;
+  text-align: center;
 }
+
+.box:hover {
+  transform: scale(1.07);
+}
+
