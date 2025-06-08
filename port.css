@@ -1,0 +1,109 @@
+html{
+    font-family:'Times New Roman', Times, serif;
+}
+
+#top{
+    background-color: black;
+    color:antiquewhite;
+    padding: 25px;
+}
+
+*{
+    margin:0;
+}
+
+.abt{
+    height: auto;
+    width: auto;
+    font-size: larger;
+    background-color:gold; 
+    padding: 50px;
+
+
+}
+
+.abt img {
+    float: right;
+    margin-right: 150px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.abtbox{
+    border:5px solid black;
+    color:white;
+    height: auto;
+    width: 700px;
+    font-size: larger;
+    padding: 25px;
+    margin-left:80px;
+    border-radius: 25px;
+    background-color: black;
+}
+
+.box{
+    border:black;
+    border-radius: 4px;
+    margin:10px;
+    height:auto;
+    width:auto;
+    background-color:black;
+    box-shadow: black;
+    border-style: solid;
+    padding:30px;
+    color: white;
+    border-radius:18px;
+    font-size:larger;
+}
+
+.works{
+    background-color: gold;
+    padding:25px;
+    font-size: larger;
+}
+
+.cont{
+    padding:25px;
+    background-color:black;
+    color: white;
+}
+
+.sb{
+    border:1px black;
+    width: 150px;
+    height: 70px;
+    padding:20px;
+    background-color: gold;
+    color: black;
+    border-radius: 15px;
+    
+}
+
+.skills{
+    padding:50px;
+    background-color: gold;
+    color: black;
+    font-size: larger;
+    text-align: left;
+}
+
+.skb{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding:20px;
+    font-size:larger;
+    width:40%;
+    height:250px;
+    padding:20px;
+    padding-top: 60px;
+    padding: 60px;
+    margin-left: 25%;
+}
+
+.tq{
+    background-color:rgba(46, 18, 52, 0.895);
+    color: white;
+    padding:15px;
+}
